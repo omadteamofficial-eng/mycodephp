@@ -143,10 +143,10 @@ function get_dynamic_prices() {
         "apk" => (float)get_config_val("price_apk", 100.0),
         "bot" => (float)get_config_val("price_bot", 30.0),
         "ref_reward" => (float)get_config_val("ref_reward", 1.0),
-        "click_reward" => (float)get_config_val("click_reward", 0.05),
-        "pro_price" => (float)get_config_val("status_price_1", 20.0),
-        "prem_price" => (float)get_config_val("status_price_2", 50.0),
-        "king_price" => (float)get_config_val("status_price_3", 200.0)
+        "click_reward" => (float)get_config_val("click_reward", 0.00005),
+        "pro_price" => (float)get_config_val("status_price_1", 30.0),
+        "prem_price" => (float)get_config_val("status_price_2", 70.0),
+        "king_price" => (float)get_config_val("status_price_3", 900.0)
     ];
 }
 
